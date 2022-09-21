@@ -8,4 +8,4 @@ app.config[
 ] = "postgresql://postgres:12345@localhost/flask_ecom"
 db = SQLAlchemy(app)
 
-from shop import routes
+from shop.admin import routes
